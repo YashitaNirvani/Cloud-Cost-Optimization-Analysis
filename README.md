@@ -11,70 +11,50 @@ This project demonstrates practical skills in data cleaning, exploratory data an
 Problem Statement
 
 Organizations using cloud platforms often experience uncontrolled cost growth due to:
-
 Underutilized resources
-
 Excessive data transfer
-
 Inefficient service allocation
-
 Lack of cost monitoring dashboards
-
 This project analyzes cloud billing datasets to:
-
 Identify high-cost services
-
 Detect unusual spending patterns
-
 Analyze network usage impact on billing
-
 Provide optimization recommendations
 
+---------------------------------------------------
 
 Dataset
 
 The dataset contains simulated cloud billing data with the following fields:
 
 Service Name
-
 Region
-
 Usage Quantity
-
 Usage Unit
-
 Total Cost (INR)
-
 Network Inbound Data (Bytes)
-
 Network Outbound Data (Bytes)
-
 Billing Date
-
 Derived features created during analysis:
-
 Total Network (GB)
-
 Rounded Cost ($)
-
 Monthly Cost Aggregations
-
 Service-Level Cost Distribution
+
+---------------------------------------------------
 
 
 Tech Stack
 
 Python
-
 Pandas
-
 NumPy
-
 Matplotlib
-
 Seaborn
+Goggle Collab
 
-Jupyter Notebook
+---------------------------------------------------
+
 
 
 Key Analysis Performed
@@ -85,17 +65,13 @@ Key Analysis Performed
 4. Region-Wise Cost Distribution
 5. Cost Optimization Insights
 
+---------------------------------------------------
 
 Business Impact
 
 This project simulates how a data analyst can:
-
 Reduce operational cloud expenses
-
 Support financial decision-making
-
 Improve cost visibility for stakeholders
-
 Enable proactive budget monitoring
-
 Cloud cost optimization is a real-world industry challenge across startups, fintech, e-commerce, SaaS, and enterprise organizations.
